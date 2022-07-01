@@ -1,0 +1,162 @@
+.bai1 {
+    width: 90px;
+    height: 90px;
+    background-color: blue;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+.bai4 {
+    background-color: brown;
+}
+.bai5 p {
+    color: black;
+}
+.bai5 h1 {
+    color: blue;
+}
+.bai5 h3 {
+    color: black;
+    font-weight: 700;
+}
+.bai7 {
+    border: 1px solid red;
+}
+.bai7 td {
+    border: 1px solid red;
+}
+.bai7 tr:nth-child(odd) {
+    background-color: aqua;
+}
+.bai7 tr:nth-child(even) {
+    background-color: brown;
+}
+.bai8 article {
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 25px;
+    text-align: center;
+    color: aliceblue;
+    border: 1px solid royalblue;
+}
+.bai8 span {
+    font-size: 32px;
+    display: block;
+    line-height: 50px;
+    font-weight: bold;
+}
+.bai9 {
+    width: 1000px;
+    height: 600px;
+    background-image: url(https://images.unsplash.com/photo-1656514390711-d69de6e3a29b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: repeat;
+    text-align: center;
+    padding: 50px;
+}
+.bai9 h1, .bai9 p {
+    width: 60%;
+    margin: 0 auto;
+}
+.bai9 h1 {
+    font-size: 60px;
+}
+.bai9 p {
+    font-size: 30px;
+}
+.bai9 div {
+    display: flex;
+}
+.bai9 div:last-child {
+    margin-top: 150px;
+}
+.bai10 {
+    width: 200px;
+    background-color: burlywood;
+    padding: 15px;
+}
+.bai10 label {
+    display: block;
+    font-weight: bold;
+    line-height: 20px;
+}
+.bai10 input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.bai10 button {
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    border: none;
+}
+.bai12 {
+    padding: 25px;
+    width: 1000px;
+    height: 1000px;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+.bai121 {
+    background-color: aqua;
+}
+.bai122 {
+    background-color: red;
+}
+.bai123 {
+    background-color: black;
+}
+.bai13 {
+    width: 600px;
+}
+.main-title {
+    background-color: brown;
+    color: aliceblue;
+    font-weight: bold;
+}
+.wrong {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+.title {
+    color: brown;
+}
+.sub-title {
+    font-size: 12px;
+    text-align: right;
+}
+.bai14 {
+    width: 800px;
+}
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    padding: 15px;
+}
+.item {
+    background-color: burlywood;
+    padding: 20px;
+}
+.bai15 {
+    width: 500px;
+    color: aliceblue;
+    background-color: cadetblue;
+    font-size: 25px;
+    font-weight: bold;
+}
+.bai15 span {
+    font-size: 30px;
+    font-weight: bold;
+}
+.bai15 li:first-child, .bai15 li:nth-child(2), .bai15 li:last-child {
+    color: aqua;
+}
