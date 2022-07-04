@@ -160,3 +160,87 @@
 .bai15 li:first-child, .bai15 li:nth-child(2), .bai15 li:last-child {
     color: aqua;
 }
+.header {
+    width: 500px;
+    height: 50px;
+    background-color: cadetblue;
+}
+.bai16 {
+    padding: 20px;
+}
+.header span {
+    line-height: 50px;
+    font-weight: bold;
+}
+.content span{
+    font-weight: bold;
+}
+.bai17__header ul, .bai17__sumary ul {
+    list-style: none;
+    display: flex;
+}
+.bai17__header li + li, .bai17__sumary li + li {
+    margin-left: 20px;
+}
+.bai17__header {
+    width: 800px;
+    height: 50px;
+    color: aliceblue;
+    background-color: cadetblue;
+    padding: 10px 0;
+}
+.bai17__header li:nth-child(3) {
+    background-color: yellow;
+    color: black;
+}
+.bai17__sumary {
+    display: flex;
+    color: blue;
+}
+.bai17__sumary ul + ul {
+    margin-left: 50px;
+}
+.bai17__sumary ul li {
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+.bai17__sumary ul li:first-child {
+    color: black;
+}
+.bai17__sumary ul li:last-child {
+    border: none;
+}
+.bai17 a {
+    text-decoration: none;
+}
+.bai17__content span {
+    font-weight: bold;
+}
+.bai18__head {
+    width: 900px;
+    height: 100px;
+    background-color: bisque;
+}
+.bai18__title {
+    font-weight: bold;
+    font-size: 32px;
+}
+.bai18__tag {
+    margin-top: 30px;
+    width: 50px;
+    background-color: yellow;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+}
+.bai18__table {
+    text-align: left;
+}
+.bai18__table tr:first-child {
+    width: 900px;
+    height: 30px;
+    background-color: aquamarine;
+}
+.bai18__table tr:first-child th {
+    width: 300px;
+}
